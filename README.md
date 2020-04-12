@@ -1,2 +1,7 @@
 # TIL
-Today I learned..
+Today I learned.
+
+# Date
+Learn list
+
+
