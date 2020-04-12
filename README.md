@@ -2,6 +2,6 @@
 Today I learned.
 
 # Date
-Learn list
+Learn a liist
 
 
