@@ -1,8 +1,8 @@
 # TIL
+
 Today I learned.
 
-
--m Commit tips
+**m- Commit tips**
 
 - feat: 새로운 기능을 추가할 경우
 - fix: 버그를 고친 경우
