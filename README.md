@@ -15,7 +15,21 @@ Today I learned.
 제목의 처음은 동사 원형으로 시작하고 첫 글자는 대문자로 작성한다. "Fixed", "Added", "Changed" 등 과거 시제가 아닌 "Fix", "Add", "Change"로 명령어로 시작한다. 총 글자 수는 50자 이내며 마지막에 마침표(.)를 붙이지 않는다.
 
 
-# Date
-Learn a liist
+## software a basic knowledge (Links..)
+
+
+
+- [클라우드(Cloud)란?](https://imasoftwareengineer.tistory.com/m/102)
+- [유닛테스트가 무엇인가요 ?](https://imasoftwareengineer.tistory.com/88?category=768151)
+- [자료구조를 공부하기 위한 5가지 단계](https://imasoftwareengineer.tistory.com/93)
+- [엔지니어로 취업하기 전에 알면 좋은 것들](https://imasoftwareengineer.tistory.com/87?category=768151)
+
+
+
+## interest
+
+- [질문에 서투른 사람을 위한 질문하는 방법
+](https://xo.dev/how-to-question/)
+
 
 
