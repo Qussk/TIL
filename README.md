@@ -15,6 +15,12 @@ Today I learned.
 제목의 처음은 동사 원형으로 시작하고 첫 글자는 대문자로 작성한다. "Fixed", "Added", "Changed" 등 과거 시제가 아닌 "Fix", "Add", "Change"로 명령어로 시작한다. 총 글자 수는 50자 이내며 마지막에 마침표(.)를 붙이지 않는다.
 
 
+
+## 추가 문법 연습 
+
+- [where](#where)
+
+
 ## software a basic knowledge (Links..)
 
 
@@ -33,3 +39,38 @@ Today I learned.
 
 
 
+
+
+### where
+
+```swift
+//where 이해해보기 (추가 조건)
+
+class Dog {
+  var discliption : String {""}
+  let ee = "dd"
+}
+
+class A : Dog{
+  override var discliption : String {""}
+}
+class B : Dog {
+  override var discliption : String {""}
+}
+class C {}
+
+func testFunction<T>(parame: T) where T: Dog{
+  parame.discliption
+}
+
+func ABC() {
+  let a = A()
+  let b = B()
+  let c = C()
+  print(testFunction(parame: a))
+  print(testFunction(parame: b))
+ // print(testFunction(parame: c)) //c랑은 타입이 달라서 오류남.
+}
+```
+switch에서만 쓰는 게 아니구나 ? 
+추가 조건이 맞지 않아 C는 오류 ! (타입 일치하지 않음)
