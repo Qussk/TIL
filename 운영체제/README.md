@@ -27,18 +27,20 @@
   - [1990년대](#1990년대)
   - [2000년대](#2000년대)
 - [운영체제 구조](#운영체제구조)
-  - [OS관계도 : krenal, sechll, system call](#OS관계도)
+  - [OS관계도 : 커널, 쉘, 시스템콜](#OS관계도)
   - [CPU Protection Rings](#CPUProtectionRings)
 - [프로세스 스케쥴링]
-  - [멀티태스킹과 멀티프로세싱](#멀티태스킹과멀티프로세싱)
-  - [멀티프로그래밍](#멀티프로그래밍)
+  - [멀티 태스킹과 멀티 프로세싱](#멀티태스킹과멀티프로세싱)
+  - [멀티 프로그래밍](#멀티프로그래밍)
   - [SystemBus](#SystemBus)
 - [스케쥴링 알고리즘]
   - [FIFO](#FIFO)  
   - [SJF](#SJF)
   - [우선순위기반](#우선순위기반)
   - [RoundRobin](#RoundRobin)
-  
+- [프로세스상태와 스케쥴링]
+  - [프로세스 상태기반 스케쥴링 알고리즘 기본](#프로세스상태기반스케쥴링알고리즘기본)  
+
 
 ***
 
@@ -774,7 +776,8 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 
 ![](https://media.vlpt.us/images/underlier12/post/4358fd61-6d28-4fb1-b2b0-d585ab214b0b/image.png)
 
-### 프로세스상태간관계
+### 프로세스상태기반스케쥴링알고리즘기본
+**: 프로세스 상태 간 관계**
 - ready, running, vlock states
 
 [](https://media.vlpt.us/images/underlier12/post/5d42254e-1a6d-4319-9f38-c152169227b4/image.png)
