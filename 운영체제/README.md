@@ -854,7 +854,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 ### 스케쥴러동작비교
 
 **[비선점형]**
-![](/image/OS/s2.png)
+![](https://github.com/Qussk/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/OS/s2.png?raw=true)
 
 - ready 에 1,2,3 있는 상황에서 1실행. 
 
@@ -872,15 +872,15 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 - 주황색 화살표가 시분할 시스템의 *시간단위*라고 생각하고 이해 진행.
 
  
- ![](/image/OS/s5.png)
+ ![](https://github.com/Qussk/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/OS/s4.png?raw=true)
  
 - 스케쥴러 전환시점에 따라 프로세스 가져올 수 있음. 
 
-![](/image/OS/s6.png)
+![](https://github.com/Qussk/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/OS/s6.png?raw=true)
 
 - 남은 3은 Queue뒤로 쌓이기 때문에 1이 우선순위 됨.
 
-![](/image/OS/s7.png)
+![](https://github.com/Qussk/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/OS/s7.png?raw=true)
 
 - 3이 2개째일때 block가 되고 다시 2가 wait시간(3칸)이 끝났으므로 ready상태가 됨.
 
