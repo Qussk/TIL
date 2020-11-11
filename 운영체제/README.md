@@ -839,7 +839,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 
 - 선점형 : 프로세스 running중에 스케쥴러가 이를 중단시키고, 다른 프로세스로 교체 가능. 
 
-![](image/OS/s1.png)
+![](/image/OS/s1.png)
 
 ```
 추가내용 : 
@@ -853,11 +853,11 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 ### 스케쥴러동작비교
 
 **[비선점형]**
-![](image/OS/s2.png)
+![](/image/OS/s2.png)
 
 - ready 에 1,2,3 있는 상황에서 1실행. 
 
-![](image/OS/s3.png)
+![](/image/OS/s3.png)
 - 이런식으로 이동. 비선점형 스케쥴러의 경우 프로세스가 자발적으로 끝나거나 block상태가 되었을 때 전환할수 있으므로 이러한 스케쥴링 형태가 됨. 
 
 ![](https://media.vlpt.us/images/underlier12/post/57790976-c598-497e-a1ce-a1c21e36e70e/image.png)
@@ -866,17 +866,17 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 
 **[선점형]**
 
-![](image/OS/s4.png)
+![](/image/OS/s4.png)
 - 주황색 화살표가 시분할 시스템의 *시간단위*라고 생각하고 이해 진행.
 
  
- ![](image/OS/s5.png)
+ ![](/image/OS/s5.png)
 - 스케쥴러 전환시점에 따라 프로세스 가져올 수 있음. 
 
-![](image/OS/s6.png)
+![](/image/OS/s6.png)
 - 남은 3은 Queue뒤로 쌓이기 때문에 1이 우선순위 됨.
 
-![](image/OS/s7.png)
+![](/image/OS/s7.png)
 - 3이 2개째일때 block가 되고 다시 2가 wait시간(3칸)이 끝났으므로 ready상태가 됨.
 
 ![](https://media.vlpt.us/images/underlier12/post/63c3c154-7863-4dec-a4f9-ece7a44a0dc5/image.png)
@@ -902,7 +902,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 - 4. 선점형
 1~4를 모두 조합한 스케쥴링.
 
-![](image/OS/s7.png)
+![](/image/OS/s8.png)
 - 3이 처음 실행되고 2,3중에 2가 `Process 2`로 우선순위가 더 높기때문에 선점형에 3,2순으로 가지만, 만약, 반점 찍은 곳을 우선순위를 고려하는 부분이라고 친다면, 굳이 1~2초 간격사이에서는 우선순위를 고려하지 않기때문에 3으로 계속 실행될 수 있음. 일단 후자쪽 알고리즘으로 예시를 들도록 함. 
 
 ![](https://media.vlpt.us/images/underlier12/post/21c5af4d-e753-4d84-84dc-16322522cdb6/image.png)
