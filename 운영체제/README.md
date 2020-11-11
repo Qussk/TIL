@@ -793,7 +793,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 - Ready 상태에서 Running이 될 수 있고 Running 후 Block 또는 Ready 상태로 간다. Block 상태가 끝나면 Ready로 돌아간다.
 
 
-![](/image/OS/os7.png)
+![](https://github.com/Qussk/TIL/blob/master/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/image/OS/os7.png?raw=true)
 
 - 만약 1,2,3 모두가 ready인 상태에서 2를 먼저 시작했다면, 2는 Block. 1,3은 ready상태임. 
 
@@ -824,6 +824,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 ### 선점형과비선점형스케쥴러
 
 **선점형 스케쥴러(Preemptive Scheduling)(후반부에 나옴) :** 하나의 프로세스가 다른 프로세스 대신에 프로세서(CPU)를 차지할 수 있음
+
 **비선점형 스케쥴러(Non-preemptive Scheduling)(기본) :** 하나의 프로세스가 끝나지 않으면 다른 프로세스는 CPU를 사용할 수 없음
 
 
@@ -903,6 +904,7 @@ CPU 입장에서 `application 3`이 파일을 열고 저장매체에서 파일�
 1~4를 모두 조합한 스케쥴링.
 
 ![](/image/OS/s8.png)
+
 - 3이 처음 실행되고 2,3중에 2가 `Process 2`로 우선순위가 더 높기때문에 선점형에 3,2순으로 가지만, 만약, 반점 찍은 곳을 우선순위를 고려하는 부분이라고 친다면, 굳이 1~2초 간격사이에서는 우선순위를 고려하지 않기때문에 3으로 계속 실행될 수 있음. 일단 후자쪽 알고리즘으로 예시를 들도록 함. 
 
 ![](https://media.vlpt.us/images/underlier12/post/21c5af4d-e753-4d84-84dc-16322522cdb6/image.png)
