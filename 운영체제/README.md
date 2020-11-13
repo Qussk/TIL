@@ -2,6 +2,7 @@
 
 # 운영체제 소프트웨어
 
+![](https://media.vlpt.us/images/kbj7227/post/05d34f4c-3a66-4fc0-856a-90e8148cb180/operatingssystem.png)
 
 ### 운영체제 과목 소개
 - 컴퓨터사이언스(전공)필수 과목
