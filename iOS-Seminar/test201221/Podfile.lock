@@ -7,8 +7,20 @@ PODS:
   - Firebase/Auth (7.1.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 7.1.0)
+  - Firebase/Core (7.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.1.0)
   - Firebase/CoreOnly (7.1.0):
     - FirebaseCore (= 7.1.0)
+  - FirebaseAnalytics (7.1.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.1.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30906.0)
   - FirebaseAuth (7.1.0):
     - FirebaseCore (~> 7.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
@@ -22,6 +34,17 @@ PODS:
     - GoogleDataTransport (~> 8.0)
     - GoogleUtilities/Environment (~> 7.0)
     - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30906.0)
+  - FirebaseInstallations (7.1.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleAppMeasurement (7.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
     - nanopb (~> 2.30906.0)
   - GoogleDataTransport (8.0.1):
     - nanopb (~> 2.30906.0)
@@ -37,12 +60,16 @@ PODS:
     - PromisesObjC (~> 1.2)
   - GoogleUtilities/Logger (7.1.1):
     - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.1.1):
+    - GoogleUtilities/Logger
   - GoogleUtilities/Network (7.1.1):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
   - "GoogleUtilities/NSData+zlib (7.1.1)"
   - GoogleUtilities/Reachability (7.1.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.1.1):
     - GoogleUtilities/Logger
   - GTMAppAuth (1.1.0):
     - AppAuth/Core (~> 1.4)
@@ -61,15 +88,19 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Auth
+  - Firebase/Core
   - GoogleSignIn
 
 SPEC REPOS:
   trunk:
     - AppAuth
     - Firebase
+    - FirebaseAnalytics
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleSignIn
     - GoogleUtilities
@@ -81,9 +112,12 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
+  FirebaseAnalytics: 7f165a56dea86ddd5b8ce02af3bee982c683405c
   FirebaseAuth: f82c2cfcc1c107bb0a97735cdbce4eb2a601f710
   FirebaseCore: 20046127eef0fcb8fa25df7fc12f7b97d4e48611
   FirebaseCoreDiagnostics: 872cdb9b749b23346dddd5c1014d1babd2257de3
+  FirebaseInstallations: 3de38553e86171b5f81d83cdeef63473d37bfdb0
+  GoogleAppMeasurement: 89e1a64593f968713b0506ba1b53b38a154bf9a5
   GoogleDataTransport: e4085e6762f36a6141738f46b0153473ce57fb18
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
   GoogleUtilities: 3dc4ff0d5e4840e2fa8eef0889620e8c33d4218c
@@ -92,6 +126,6 @@ SPEC CHECKSUMS:
   nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
 
-PODFILE CHECKSUM: 59c68091a7d9256962004179f15f721e989501e1
+PODFILE CHECKSUM: ca93cbba8a72a36d01577d23e2fc7c454a0fc8e7
 
 COCOAPODS: 1.9.3

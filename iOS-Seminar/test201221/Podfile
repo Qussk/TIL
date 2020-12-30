@@ -8,6 +8,7 @@ target 'test201221' do
   # Pods for test201221
 
 pod 'Firebase/Auth'
+pod 'Firebase/Core'
 pod 'GoogleSignIn'
 
 end
