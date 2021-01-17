@@ -1,6 +1,0 @@
-framework module Pods_test201221 {
-  umbrella header "Pods-test201221-umbrella.h"
-
-  export *
-  module * { export * }
-}
