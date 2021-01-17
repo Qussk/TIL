@@ -10,13 +10,14 @@ import Firebase
 import GoogleSignIn
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, GIDSignInDelegate {
   //MARK: -propertise
 
   @IBOutlet weak var googleButton: GIDSignInButton!
     
   override func viewDidLoad() {
     super.viewDidLoad()
+
     autoGoogleLogin()
     
   }
@@ -33,14 +34,13 @@ class ViewController: UIViewController {
   //구글로그인 버튼
   @IBAction func googleDidTap(_ sender: GIDSignInButton) {
     GIDSignIn.sharedInstance().signIn()
+    
   }
   
 
-}
-
 
 //MARK: -GIDSignInDelegate
-extension ViewController: GIDSignInDelegate {
+//extension ViewController: GIDSignInDelegate {
 func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error?) {
   if let error = error {
     return
