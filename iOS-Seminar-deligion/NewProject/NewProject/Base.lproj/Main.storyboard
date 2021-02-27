@@ -24,7 +24,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="vD3-xH-8Gz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <state key="normal" title=" 구글 계정으로 시작하기" image="google3">
                                             <color key="titleColor" systemColor="labelColor"/>
                                         </state>
@@ -76,6 +76,7 @@
                             <constraint firstItem="fqv-OT-MgA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="2OW-It-Nzn"/>
                             <constraint firstItem="fqv-OT-MgA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Lzr-0x-SZH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fqv-OT-MgA" secondAttribute="trailing" constant="40" id="WJ1-ch-Yoh"/>
+                            <constraint firstItem="IPy-ei-U2b" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.710145" id="lfa-HC-EmV"/>
                         </constraints>
                     </view>
                 </viewController>
