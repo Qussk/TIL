@@ -56,9 +56,9 @@
   - [프로세스간 커뮤니케이션](#프로세스간커뮤니케이션) 
     - [프로세스와 IPC](#프로세스와IPC)
     - [각 IPC기법 개념 이해하기](#각IPC기법개념이해하기)
-      - pipe
-      - Message Queue
-      - Shard Memory
+      - [파이프(Pipe)](#파이프(Pipe))
+      - [메세지큐(MessageQueue)](#메세지큐(MessageQueue))
+      - [공유메모리(Sharedmemory)](#공유메모리(Sharedmemory))
 
 ***
 
